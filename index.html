@@ -43,7 +43,7 @@ h1{font-size:clamp(3.1rem,7vw,6.4rem);line-height:.94;letter-spacing:-.075em;mar
 .btn.primary{background:var(--text);color:#080910;border-color:var(--text)}
 .btn:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(0,0,0,.25)}
 .btn.secondary:hover{border-color:rgba(139,124,255,.6);background:rgba(139,124,255,.08)}
-.hero-art{height:520px;display:grid;place-items:center;perspective:900px}
+.hero-art{height:520px;display:grid;place-items:center;perspective:900px;position:relative}.profile-photo{width:270px;height:270px;object-fit:cover;border-radius:50%;border:2px solid rgba(255,255,255,.25);box-shadow:0 0 55px rgba(139,124,255,.28);position:absolute;z-index:2}.orbit{z-index:1}
 .orbit{width:330px;height:330px;border:1px solid rgba(139,124,255,.3);border-radius:50%;position:relative;transform:rotateX(63deg) rotateZ(-20deg);animation:float 7s ease-in-out infinite}
 .orbit:before,.orbit:after{content:"";position:absolute;inset:30px;border:1px solid rgba(49,215,255,.2);border-radius:50%}
 .orbit:after{inset:75px;border-color:rgba(255,255,255,.16)}
@@ -99,7 +99,7 @@ footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-s
 <p>Computer Science Engineering student focused on programming, web development, problem solving and building practical technology projects — with a long-term goal of becoming an AI/ML Engineer.</p>
 <div class="actions"><a class="btn primary" href="#projects">Explore Projects ↓</a><a class="btn secondary" href="#contact">Let's Connect ↗</a></div>
 </div>
-<div class="hero-art reveal"><div class="orbit"><div class="core"></div></div><div class="sphere-label">CSE • AI/ML • Builder</div></div>
+<div class="hero-art reveal"><img class="profile-photo" src="pf pic.jpeg" alt="Sagar Singh Sikarwar"><div class="orbit"><div class="core"></div></div><div class="sphere-label">CSE • AI/ML • Builder</div></div>
 </div></section>
 
 <section id="about"><div class="container">
@@ -131,7 +131,7 @@ footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-s
 
 <section id="education"><div class="container">
 <div class="section-head reveal"><div><div class="kicker">04 — Education</div><h2>My foundation.</h2></div><p>Academic learning is the base I use to build practical projects.</p></div>
-<div class="timeline"><div class="timeline-item reveal"><div><small>BACHELOR'S DEGREE</small><h3>Computer Science Engineering</h3><p>Building foundations in programming, data structures, databases, software engineering and computer science.</p></div><div style="color:var(--muted)">B.Tech / CSE</div></div></div>
+<div class="timeline"><div class="timeline-item reveal"><div><small>BACHELOR'S DEGREE</small><h3>Computer Science Engineering</h3><p>Building foundations in programming, data structures, databases, software engineering and computer science.</p><p style="margin-top:10px;color:#cbd2df"><b>CGPA: 8.74</b></p></div><div style="color:var(--muted)">B.Tech / CSE</div></div></div>
 </div></section>
 
 <section><div class="container">
